@@ -1,0 +1,7 @@
+.card {
+  margin: 0 2% !important; {/*!important  is used because material ui will give the styles by itself so to tell my inbuild syles priority is more than material ui */}
+@media only screen and (max-width: 770px) 
+  .card {
+    margin: 2% 0 !important;
+  }
+}
